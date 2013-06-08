@@ -1,0 +1,12 @@
+{% exrends 'base.html' %}
+{% block content %}
+{{weibo.content}}<br />
+<form method="post">
+{{rep.as_p}}<br />
+<input type="submit" value="提交"/>
+</form>
+{% for replay in replays %}
+    {{replay}}<br />
+    {{replay.user}} {{replay.p_time}}<br />
+{% endfor %}
+{% endblock %}

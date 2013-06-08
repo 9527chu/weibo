@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title>搜索</title>
+<style>
+#lf{margin:0 auto;text-align: center;}
+#ln{font-size: 15px}
+#rr{float: right;}
+</style>
+</head>
+<body>
+{%extends 'base.html'%}
+   {%block left_top%}
+     <div id="lf" >
+     <div id="ln" >
+     <a href="{% url search_word %}">广播</a>        <a href="{% url search_person %}">用户</a>
+     </div>
+   <form method="post" >
+    {{searchform}}
+     {%if request.user.is_authenticated%}
+     <input type="submit" value="搜索" class="btn btn-info" />
+     {%else%}
+      <span style="font-size:20px;" >搜索</span>
+     {%endif%}
+   </form>    
+    </div>
+   {%endblock%}
+
+    {%block left_bottom%}
+    <div id="lb" >
+    {% for user in part_users %}
+    <img src="/media/{{user.get_profile.headimg.name}}" alt="" width="30px" />
+    <a href="/home/home/{{user.id}}/" >{{user.first_name}} ({{user.username}})</a><br />
+    {%if user not in request.user.get_profile.follow.all%}
+      <a href="/public/weibo/follow_add/{{user.id}}/">加关注</a><br />
+      {%else%}
+       已关注
+     {%endif%}<br />
+   关注 <a href="/follow/follow/{{user.id}}">{{user.get_profile.follow.all.count}} </a>
+  微博 <a href="/home/home/{{user.id}}/" > {{user.get_profile.weibo.all.count}}</a>
+    <hr />
+     {%endfor%}
+    {%if userss%}
+    {%for uuser in userss %}
+     <img src="/media/{{uuser.get_profile.headimg}}/" alt="" />
+    <a href="/home/home/{{uuser.id}}/" > {{uuser.first_name}}  ({{uuser.username}})</a><br />
+{%if uuser not in request.user.get_profile.follow.all%}
+      <a href="/public/weibo/follow_add/{{uuser.id}}/">加关注</a><br />
+      {%else%}
+       已关注
+     {%endif%}<br />
+   关注 <a href="/follow/follow/{{uuser.id}}">{{uuser.get_profile.follow.all.count}} </a>
+  微博 <a href="/home/home/{{uuser.id}}/" > {{uuser.get_profile.weibo.all.count}}</a>
+    <hr />
+    {%endfor%}
+     {%endif%}
+     {%if usersss%}
+     {%for uuser in usersss %}
+     <img src="/media/{{uuser.get_profile.headimg}}/" alt="" />
+    <a href="/home/home/{{uuser.id}}/" >  {{uuser.first_name}}  ({{uuser.username}})</a><br />
+      {%if uuser not in request.user.get_profile.follow.all%}
+      <a href="/public/weibo/follow_add/{{uuser.id}}/">加关注</a><br />
+      {%else%}
+     已关注
+     {%endif%}<br />
+    关注 <a href="/follow/follow/{{uuser.id}}"> {{uuser.get_profile.follow.all.count}}</a>
+    微博 <a href="/home/home/{{uuser.id}}/" > {{uuser.get_profile.weibo.all.count}}</a>
+    <hr />
+    {%endfor%} 
+    {%endif%}
+   
+    {%for weibo in part_weibos%}
+        
+        <img src="/media/{{weibo.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+        <a href="/home/home/{{weibo.userprofile_set.all.0.user.id}}/"> {{weibo.userprofile_set.all.0.user.username}}</a><br />
+        
+        {{weibo.context}} <br />
+         {{weibo.p_time}}<br />
+<div id="rr" >
+{%if weibo not in request.user.get_profile.collect.all%}
+<a href="/public/weibo/collect_add/{{weibo.id}}/" >收藏</a>
+{%else%}
+已收藏
+{%endif%}
+<a href="/public/weibo/reply/{{weibo.id}}/" >评论({{weibo.reply.all.count}})</a>
+{% if request.user.username != weibo.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.id}}/" >转发</a>
+{% endif %}
+</div>          <hr /> 
+    {%endfor%}
+ 
+    {%for weibo in weibos%}
+     <img src="/media/{{weibo.userprofile_set.all.0.headimg}}/" alt="" width="30px" /><br />
+<a href="/home/home/{{weibo.userprofile_set.all.0.user.id}}/" >{{weibo.userprofile_set.all.0.user.username}}</a><br />
+     {{weibo.context}}<br />
+     {{weibo.p_time}}<br />
+<div id="rr" >
+{%if weibo not in request.user.get_profile.collect.all%}
+<a href="/public/weibo/collect_add/{{weibo.id}}/" >收藏</a>
+{%else%}
+已收藏
+{%endif%}
+<a href="/public/weibo/reply/{{weibo.id}}/" >评论({{weibo.reply.all.count}})</a>
+{% if request.user.username != weibo.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.id}}/" >转发</a>
+{% endif %}
+</div>
+          <hr />
+    {%endfor%}
+    </div>
+    {%endblock%}
+
+</body>
+</html>

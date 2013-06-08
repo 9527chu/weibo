@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/djangoweibo/!svn/ver/506/trunk/weibo/weibo
+END
+wsgi.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/djangoweibo/!svn/ver/86/trunk/weibo/weibo/wsgi.py
+END
+urls_home.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/djangoweibo/!svn/ver/476/trunk/weibo/weibo/urls_home.py
+END
+urls
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/djangoweibo/!svn/ver/184/trunk/weibo/weibo/urls
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/djangoweibo/!svn/ver/86/trunk/weibo/weibo/__init__.py
+END
+settings.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/djangoweibo/!svn/ver/486/trunk/weibo/weibo/settings.py
+END
+urls.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/djangoweibo/!svn/ver/385/trunk/weibo/weibo/urls.py
+END

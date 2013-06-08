@@ -1,0 +1,55 @@
+ <?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="images/jquery-1.9.1.js"></script>
+<script src="images/bootstrap.min.js"></script>
+{%extends 'base.html'%}
+	<title></title>
+	
+	<script src="images/jquery-1.9.1.js"></script>
+    <script src="images/bootstrap.min.js"></script>
+<style>
+	 #l1{width: 80px}
+    #imm{width:188px;
+	    height:180px}
+    #t1{position:relative;
+        left:230px;
+        top:-150px;
+	    font-size:30px;
+	  	}
+</style>
+</head>
+<body>
+{%block left_top%}
+ <div>
+<div id='imm'><img src="/media/{{user.userprofile.headimg}}" alt="" width="188px" height="180" /></div>
+<div id='t1'>{{user.first_name}}的个人中心</div>
+{% if weibo.forwarding.userprofile_set.all.0.user not in request.user.userprofile.follow.all and request.user != user %}
+<a href="/public/weibo/follow_add/{{user.id}}/" >关注</a>
+{%endif%}
+</div>
+{%endblock%}
+{%block left_bottom%}
+{%for weibo in weibos%}
+内容：{{weibo.context}}<br />
+发帖人：{{weibo.userprofile_set.all.0.user.username}}<br />
+时间：{{weibo.p_time}}<br />
+<div id="l1">
+{% if request.user.is_authenticated %}
+{% if weibo not in request.user.userprofile.collect.all %}
+<a href="/public/weibo/collect_add/{{weibo.id}}/" >收藏</a>
+{%endif%}
+<a href="/public/weibo/reply/{{weibo.id}}/" >评论</a>
+{% if request.user.username != weibo.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.id}}/" >转发</a>
+<hr />
+{% endif %}
+{%endif%}
+</div>
+{%endfor%}
+{%endblock%}
+</body>
+</html>

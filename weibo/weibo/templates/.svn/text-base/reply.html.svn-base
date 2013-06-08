@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+</head>
+<body>
+{% extends 'base.html' %}
+ {#发微博， 个人信息#}
+{%block left_top%}
+{{weibo.context}}
+{%endblock%}
+</div> 
+<div id="left-bottom">
+{#微薄内容#}
+{%block left_bottom%}
+<form method="post" action="/public/weibo/reply_add/{{weibo.id}}/">
+<table summary="" >
+{{replyform}}
+<tr>
+<td>
+<input type="submit" value="发表评论" />
+</td>
+</tr>
+</table>
+</form>
+{%for reply in replys%}
+<blockquote>
+内容：{{reply.context}}<br />
+时间：{{reply.p_time}}<br />
+用户：{{reply.user}}
+</blockquote>
+
+{%endfor%}
+{%endblock%}
+</div>
+
+</body>
+</html>

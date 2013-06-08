@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block left_top %}
+
+
+<?--我收听的人>
+<div>
+<form action="listen_people">
+
+{% for user in follow %}
+    <img src="/media/{{user.userprofile.headimg}}" alt="" width="50px" />
+    <a href="/home/home/{{user.id}}" >{{user.username}}</a><hr>
+{% endfor %}
+
+</form>
+</div>
+
+<?-- 分页 >
+{% if contacts.has_previous %}
+<a href="?page={{contacts.previous_page_number}}" >previous</a>
+{% endif %}
+{% if contacts.has_next %}
+<a href="?page={{contacts.previous_page_number}}" >next</a>
+{% endif %}
+
+{%endblock%}

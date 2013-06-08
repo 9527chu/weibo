@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title></title>
+<style>
+#liuen {font-size: 15px;width: 80px;height: 90px;}
+#liu{background-color: 	#f0f0f0;height: 110px;width: 500px;position: absolute;left: 100px;top: 30px;}
+#talkbox textarea{
+    -moz-border-radius: 6px 6px 0 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: relative;
+    border:1px solid black;
+    width: 600px;
+    height: 100px;    
+    }
+#n8{
+   float: right;
+}
+</style>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block left_top %}
+<br />
+<div id="liuen"><img src="/media/{{topic.user.get_profile.headimg}}" alt="" width="80" height="90" />{{topic.user}}</div>
+<div id="liu"><h3>有关#{{title}}#:</h3><h5 style="font-size:13px;">{{text}}</h5></div><br /><br /><br />
+
+
+<form method="post" action="{% url weibo_add %}">
+<table summary="" id="talkbox">
+{{weiboform.as_table}}
+<tr>
+<td></td><td>
+<div id="n8">
+<input type="submit" value="发微博" class="btn btn-info" />
+</div>
+</td>
+</tr>
+</table>
+</form><br /><br /><br />
+
+<?-- 显示和话题相关的微博>
+{%for weibo in weibos%}
+ <div class="weirao">
+
+<img src="/media/{{weibo.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+</div>
+    &nbsp;&nbsp;&nbsp;用户:<a href="/home/home/{{weibo.userprofile_set.get.user.id}}"> {{weibo.userprofile_set.get.user.username}}</a><br />
+    &nbsp;&nbsp;&nbsp;内容：{{weibo.context}}<br />
+    &nbsp;&nbsp;&nbsp;时间：{{weibo.p_time}}<br />
+
+{%if weibo.forwarding%}
+<div id="forwarding">
+转载内容：<br />
+<img src="/media/{{weibo.forwarding.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+内容：{{weibo.forwarding.context}}<br />
+<a href="/home/home/{{weibo.forwarding.userprofile_set.all.0.user.id}}" >
+发帖人：{{weibo.forwarding.userprofile_set.all.0.user.username}}<br />
+</a>
+时间：{{weibo.forwarding.p_time}}<br />
+<a href="/public/weibo/reply/{{weibo.forwarding.id}}/" >评论</a>
+{%if weibo.forwarding not in request.user.get_profile.collect.all%}
+<a href="/public/weibo/collect_add/{{weibo.forwarding.id}}/" >收藏</a>
+{%else%}
+已收藏
+{%endif%}
+{% if request.user.username != weibo.forwarding.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.forwarding.id}}/" >转发</a>
+{% endif %}
+
+</div>
+{%endif%}
+<div class="choice">
+<a href="/public/weibo/reply/{{weibo.id}}/" >评论{%if weibo.reply.count%}({{weibo.reply.count}}){%endif%}</a>
+{% if weibo not in request.user.get_profile.collect.all %}
+<a href="/public/weibo/collect_add/{{weibo.id}}/" >收藏</a>
+{% else %}
+已收藏
+{% endif %}
+{% if request.user.username != weibo.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.id}}/" >转发</a>
+{% endif %}
+
+</div>
+<hr />
+{% endfor %}
+
+
+{% endblock %}
+</body>
+</html>

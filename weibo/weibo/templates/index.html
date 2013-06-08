@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title></title>
+</head>
+<body>
+{% extends 'base.html' %}
+
+ {%block left_top%} 
+ {%for weibo in weibos%}
+ 
+<div class="weirao">
+
+<img src="/media/{{weibo.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+</div>
+&nbsp;&nbsp;&nbsp;{{weibo.context}}<br />
+&nbsp;&nbsp;&nbsp;来自：
+<a href="/home/home/{{weibo.userprofile_set.all.0.user.id}}" >
+{{weibo.userprofile_set.all.0.user.username}}<br />
+</a>
+&nbsp;&nbsp;&nbsp;{{weibo.p_time}}<br />
+
+{%if weibo.forwarding%}
+<div class="forwarding">
+<br />
+<div class="weirao">
+<img src="/media/{{weibo.forwarding.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+</div>
+&nbsp;&nbsp;&nbsp;内容：{{weibo.forwarding.context}}<br />
+<a href="/home/home/{{weibo.forwarding.userprofile_set.all.0.user.id}}" >
+&nbsp;&nbsp;&nbsp;来自：{{weibo.forwarding.userprofile_set.all.0.user.username}}<br />
+</a>
+
+<div class="choice1">
+{% if request.user.is_authenticated %}
+
+&nbsp;&nbsp;&nbsp;<a href="/public/weibo/reply/{{weibo.forwarding.id}}/" >评论</a>
+{% if weibo.forwarding not in request.user.userprofile.collect.all %}
+<a href="/public/weibo/collect_add/{{weibo.forwarding.id}}/" >收藏</a>
+{%endif%}
+{% if request.user.username != weibo.forwarding.userprofile_set.all.0.user.username and request.user.username != weibo.userprofile_set.all.0.user.username %}
+<a href="/public/weibo/forwarding/{{weibo.forwarding.id}}/" >转发</a>
+{% endif %}
+  {% if weibo.forwarding.userprofile_set.all.0.user not in request.user.userprofile.follow.all %}
+ <a href="/public/weibo/follow_add/{{weibo.forwarding.userprofile_set.all.0.user.id}}/" >关注</a>
+ {% endif %}
+{% endif %}
+</div>
+</div>
+{%endif%}
+<div class="choice">
+{% if request.user.is_authenticated %}
+
+{% if weibo not in request.user.userprofile.collect.all %}
+<a href="/public/weibo/collect_add/{{weibo.id}}/" >收藏</a>
+{%endif%}
+<a href="/public/weibo/reply/{{weibo.id}}/" >评论</a>
+{% if request.user.username != weibo.userprofile_set.all.0.user.username %}
+
+<a href="/public/weibo/forwarding/{{weibo.id}}/" >转发</a>
+{% endif %}
+ {%if request.user.username != weibo.userprofile_set.all.0.user.username %}
+ {% if weibo.userprofile_set.all.0.user not in request.user.userprofile.follow.all %}
+ <a href="/public/weibo/follow_add/{{weibo.userprofile_set.all.0.user.id}}/" >关注</a>
+ {% endif %}
+ {% endif %}
+ 
+ {% endif %}
+ </div>
+ <hr />
+ {%endfor%}
+ {%endblock%}
+</body>
+</html>

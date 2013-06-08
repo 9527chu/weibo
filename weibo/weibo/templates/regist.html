@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+	<title></title>
+<style>
+#a{
+position:absolute;
+text-align:center;
+width:500px;
+height:200px;
+left:14%;
+top:30%;
+margin:0 ;
+padding:0;
+}
+#b{
+border:1px solid #ADC28D;
+background-color:#F2F9FD;
+height:60px;
+width:80px;
+border-radius:10px;
+}
+label{
+position:absolute;
+}
+input{
+margin-top:20px;
+}
+#UIn {
+    display: none;
+}
+</style>
+</head>
+
+<body>
+{% extends 'base.html' %}
+ {%block left_top%} 
+<div id='a'>
+ 	<form method='post' enctype='multipart/form-data'>
+	{{registform.as_p}}
+	<input type='submit' value='注册' href='{%url index_index%}' id='b' class="btn btn-info" />
+	
+	</form>
+</div>
+{%endblock%}
+</body> 
+</html>

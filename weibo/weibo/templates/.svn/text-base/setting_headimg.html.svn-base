@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="images/bootstrap.min.css" rel="stylesheet" media="screen">
+<script src="images/jquery-1.9.1.js"></script>
+<script src="images/bootstrap.min.js"></script>
+<style>
+#left_content{
+	margin-left: 50px;	
+}
+</style>	
+	<title></title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% block left_top %}
+    <div class="navbar">
+    <div class="navbar-inner">
+    <ul class="nav">
+    <li><a href="/setting/2/">修改密码</a></li>
+    <li class="active"><a href="/setting/3/">修改头像</a></li>
+    <li><a href="/setting/1/">修改个人信息</a></li>
+    </ul>
+    </div>
+    </div>
+<div id="left_content">
+<form method="post" enctype="multipart/form-data">
+{{headimgform.as_p}}
+<input type="submit" value="OK" class="btn btn-info"></input>
+</form>
+</div>
+{% endblock %}
+</body>
+</html>

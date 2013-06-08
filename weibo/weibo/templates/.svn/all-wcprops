@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/djangoweibo/!svn/ver/506/trunk/weibo/weibo/templates
+END
+show_topic.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/djangoweibo/!svn/ver/505/trunk/weibo/weibo/templates/show_topic.html
+END
+collect.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/djangoweibo/!svn/ver/488/trunk/weibo/weibo/templates/collect.html
+END
+home.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/djangoweibo/!svn/ver/506/trunk/weibo/weibo/templates/home.html
+END
+setting_info.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/djangoweibo/!svn/ver/439/trunk/weibo/weibo/templates/setting_info.html
+END
+setting_headimg.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/djangoweibo/!svn/ver/437/trunk/weibo/weibo/templates/setting_headimg.html
+END
+reply.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/djangoweibo/!svn/ver/276/trunk/weibo/weibo/templates/reply.html
+END
+regist.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/djangoweibo/!svn/ver/421/trunk/weibo/weibo/templates/regist.html
+END
+myhome.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/djangoweibo/!svn/ver/504/trunk/weibo/weibo/templates/myhome.html
+END
+setting_password.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/djangoweibo/!svn/ver/438/trunk/weibo/weibo/templates/setting_password.html
+END
+follow.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/djangoweibo/!svn/ver/471/trunk/weibo/weibo/templates/follow.html
+END
+forwarding.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/djangoweibo/!svn/ver/281/trunk/weibo/weibo/templates/forwarding.html
+END
+replays_weibo.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/djangoweibo/!svn/ver/263/trunk/weibo/weibo/templates/replays_weibo.html
+END
+mysidebar_n_new.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/djangoweibo/!svn/ver/160/trunk/weibo/weibo/templates/mysidebar_n_new.html
+END
+search.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/djangoweibo/!svn/ver/502/trunk/weibo/weibo/templates/search.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/djangoweibo/!svn/ver/473/trunk/weibo/weibo/templates/index.html
+END
+urls_follow.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/djangoweibo/!svn/ver/215/trunk/weibo/weibo/templates/urls_follow.html
+END
+newMsgCount.html
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/djangoweibo/!svn/ver/160/trunk/weibo/weibo/templates/newMsgCount.html
+END
+base.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/djangoweibo/!svn/ver/478/trunk/weibo/weibo/templates/base.html
+END

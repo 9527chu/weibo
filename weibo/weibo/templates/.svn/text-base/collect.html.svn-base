@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title></title>
+</head>
+<body>
+{%extends 'base.html'%}
+
+ <div id="left-top">
+ {#发微博， 个人信息#}
+ {%block left_top%}
+ 
+ {%endblock%}
+ </div> 
+ <div id="left-bottom">
+ {#微薄内容#}
+ {%block left_bottom%}
+{%for collect in collects%}
+<blockquote>
+<div class="weirao">
+<img src="/media/{{collect.userprofile_set.all.0.headimg}}" alt="" width="50px" />
+</div>
+{{collect.context}}<br />
+{{collect.p_time}}<br />
+来自：
+<a href="{% url home collect.userprofile_set.all.0.user.id %}" >
+{{collect.userprofile_set.all.0.user.username}}
+</a>
+<br />
+<hr />
+</blockquote>
+{%endfor%}
+ {%endblock%}
+ </div>
+</body>
+</html>

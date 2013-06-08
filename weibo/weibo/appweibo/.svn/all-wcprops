@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/djangoweibo/!svn/ver/501/trunk/weibo/weibo/appweibo
+END
+admin.py
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/djangoweibo/!svn/ver/199/trunk/weibo/weibo/appweibo/admin.py
+END
+views_setting.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/djangoweibo/!svn/ver/440/trunk/weibo/weibo/appweibo/views_setting.py
+END
+views_public.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/308/trunk/weibo/weibo/appweibo/views_public.py
+END
+views_topic.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/479/trunk/weibo/weibo/appweibo/views_topic.py
+END
+views.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/djangoweibo/!svn/ver/89/trunk/weibo/weibo/appweibo/views.py
+END
+urls_home.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/djangoweibo/!svn/ver/205/trunk/weibo/weibo/appweibo/urls_home.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/djangoweibo/!svn/ver/89/trunk/weibo/weibo/appweibo/__init__.py
+END
+urls_regist.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/267/trunk/weibo/weibo/appweibo/urls_regist.py
+END
+tests.py
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/djangoweibo/!svn/ver/89/trunk/weibo/weibo/appweibo/tests.py
+END
+urls_myhome.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/258/trunk/weibo/weibo/appweibo/urls_myhome.py
+END
+views_home.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/djangoweibo/!svn/ver/456/trunk/weibo/weibo/appweibo/views_home.py
+END
+urls_follow.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/403/trunk/weibo/weibo/appweibo/urls_follow.py
+END
+urls_search.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/337/trunk/weibo/weibo/appweibo/urls_search.py
+END
+views_regist.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/268/trunk/weibo/weibo/appweibo/views_regist.py
+END
+views_myhome.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/405/trunk/weibo/weibo/appweibo/views_myhome.py
+END
+urls_index.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/djangoweibo/!svn/ver/192/trunk/weibo/weibo/appweibo/urls_index.py
+END
+views_follow.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/470/trunk/weibo/weibo/appweibo/views_follow.py
+END
+urls_setting.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/430/trunk/weibo/weibo/appweibo/urls_setting.py
+END
+views_search.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/djangoweibo/!svn/ver/501/trunk/weibo/weibo/appweibo/views_search.py
+END
+urls_topic.py
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/djangoweibo/!svn/ver/383/trunk/weibo/weibo/appweibo/urls_topic.py
+END
+urls_public.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/286/trunk/weibo/weibo/appweibo/urls_public.py
+END
+models.py
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/djangoweibo/!svn/ver/481/trunk/weibo/weibo/appweibo/models.py
+END
+views_index.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/djangoweibo/!svn/ver/381/trunk/weibo/weibo/appweibo/views_index.py
+END

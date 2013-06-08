@@ -1,0 +1,753 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>我收听的人_腾讯微博</title>
+<script async="" type="text/javascript" src="follow_files/cdn_djl.js"></script><script type="text/javascript">document.domain='qq.com';var QosS={t:[+new Date]};QosS.topSpan=function(a){this.site=a;QosS.t[1]=+new Date};QosS.endCheck=function(){window.MI&&MI.pageSpeed&&MI.pageSpeed()};for(var i=3;i<6;i++)QosS["timePoint"+i]=function(a){return function(){return function(){QosS.t[a-1]=+new Date}}}(i);</script><meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=810">
+<link rel="apple-touch-icon-precomposed" href="http://mat1.gtimg.com/www/mb/images/microblog_72_72.png">
+<link rel="shortcut icon" href="http://mat1.gtimg.com/www/mb/favicon.ico">
+<link href="follow_files/style_130318a.css" type="text/css" rel="stylesheet" id="mainStyle"><link type="text/css" rel="stylesheet" id="pane-css"><style type="text/css" id="pane-cssText"></style><link type="text/css" rel="stylesheet" id="mainStyle2">
+<style type="text/css" id="curTheme" skinid="0">.headWrap .headInside h1 a{background:url(http://mat1.gtimg.com/www/mb/images/nav_logo_default111103.png) no-repeat;_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='http://mat1.gtimg.com/www/mb/images/nav_logo_default111103.png');}
+.headWrap,.headWrap .topNav .topNavSub{-moz-box-shadow:0 1px 2px rgba(23,87,117,0.5);-webkit-box-shadow:0 1px 2px rgba(23,87,117,0.5);box-shadow:0 1px 2px rgba(23,87,117,0.5)}
+.headWrap a,
+.headWrap .topNav a{ color:#fefefe}
+.headWrap .tSearchNew{ border-color:#2b84a9}
+.headWrap .topNav .active{ color:#fff}
+.headWrap .topNav em{ border-top-color:#fefefe}
+.headWrap .headShadow{ opacity:.9; border-bottom:#2596c2 1px solid; background-color:#36a4d2;background:-webkit-gradient(linear,left top,left bottom,from(#45addd),to(#279cc8));background:-moz-linear-gradient(top,#45addd,#279cc8);background:transparent\9;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#45addd',endColorstr='#279cc8');}
+.headWrap .topNav .topNavItem a:hover i,.headWrap .topNav .topNavItem .active i{ background-color:#0177a7}
+.headWrap .topNav .topNavSub{ background-color:#1084b2}
+.headWrap .topNav .topNavSub a{ color:#fff}
+.headWrap .topNav .topNavSub a:hover{background:#005c86}
+.headWrap .topNav strong{ background-color:#0f87b6; color:#75c5eb}
+.headWrap .topNav .newMsg strong{ background-color:#f56200; color:#fff}
+.headWrap .topNav .topNavSub a{ color:#D0ECF7}
+.headWrap .topNav .func,
+.headWrap .topNav .topNavSub .hr { border-top-color:#005c86}
+.headWrap .topNav .func div,
+.headWrap .topNav .topNavSub .hr i { border-top-color:#1084b2}
+.headWrap .topNav .topNavSub .desc,
+.headWrap .topNav .topNavSub .tit {color:#fff}
+.headWrap .topNav .topNavSub .desc a { background:none}
+
+</style><style type="text/css">
+.bot .sendList{margin-right:6px}
+.n_gallery_o_cmt{display:none!important}
+</style>
+<style type="text/css">
+                    .ico_temp{background-image:url(http://mat1.gtimg.com/www/mb/img/temp_icon/temp_icon.png)}
+                </style><style type="text/css">
+.specialFo .ico_help{position:relative;top:-1px;*top:0;margin-right:8px}
+.specialFo h4{padding:10px 14px 0 14px;color:#999}.specialFo h4 .fs14{color:#EFAA00;font-weight:bold}.specialFo h4 .right{margin-top:2px;_margin-top:-1px}
+.goSettings{position:relative;top:-1px;height:0;overflow:hidden;border-top:2px solid #FFFFF0}
+.sFoHelp h3,.sFoImg,.sFoHelp .center{background:url(http://mat1.gtimg.com/www/mb/images/sfoBg2.png) no-repeat}
+.sFoHelp{width:554px;margin:4px auto 0;padding:10px 12px 12px 12px;line-height:19px;border:1px solid #F4E4B4;background-color:#FFFFF0}
+.sFoHelp .close{position:absolute;right:25px;margin-top:-46px}
+.sFoHelp h3{float:left;width:117px;height:46px;overflow:hidden;line-height:20em}
+.sFoHelp .ico_sFo{position:relative;left:5px;top:-1px;margin-right:10px;vertical-align:middle}
+.helpNote{float:left;padding:10px 0 0 10px}
+.sFoHelp .left,.sFoHelp .right{padding:10px 15px;border:2px solid #FBE1B4;background:#fff}
+.sFoImg{width:228px;height:130px;background-position:0 -56px}
+.sFoHelp .right .sFoImg{background-position:0 -196px}
+.sFoHelp h4{margin:5px 0;font-size:14px;font-weight:bold;color:#F08800}
+.sFoTip{position:relative;height:27px;margin:4px 20px 0;line-height:27px;border:1px solid #F4E4B4;background-position:-212px -277px;background-color:#FFFFF0}
+.AL .sFoTip{width:558px;margin-top:15px}
+.sFoTip a{display:block;padding-left:35px;font-family:"Simsun";color:#F08800}
+.sFoTip .close{float:none;position:absolute;top:6px;right:6px;padding:0;margin:0}
+
+.citySame{width:564px;padding:0 8px 8px;margin:0 auto;line-height:1.231;border-bottom:1px solid #E8EAEB;background-position:0 -345px;background-repeat:repeat-x;}
+.citySame .subTab1{padding:10px 0 0;margin:0;min-height:0;height:auto;border:0; position:static;}
+.citySame .subTab1 a{margin-top:0}
+.citySame .subTab1 span{ float:left; color:#666; height:15px; padding:1px 0;}
+.citySame .subTab1 span.viewList{ border-left:1px solid #ccc; padding-left:9px; margin-left:2px;}
+.citySame .sDropWrap{ float:left}
+.citySame .subTab1 .sDropWrap{ margin:0 1px 0 0}
+.citySame .subTab1 span.right{ float:right}
+.sDropBox{ display:block}
+.sDropBox li em{ padding-right:5px; visibility:hidden}
+.sDropBox li.select em{ visibility:visible}
+
+.tabStyle2 .inputTxt{width:116px;margin-right:5px;border-color:#C2C2C2;background:#fff}
+.tabStyle2 .right{margin-top:6px}
+#userKeyForm label{color:#999;position:absolute;margin:4px 0 0 4px;*margin-top:6px;_margin-top:5px;margin-top:5px\0;cursor:text;line-height:1.231}
+#userKeyForm span{color:#777;position:relative;top:2px;*top:0;right:2px}
+.listWrapper .uCard .userName *{vertical-align:baseline\0}.listWrapper .uCard .userName a{vertical-align:middle\0}
+.listWrapper .funBox input.addAttention,.listWrapper .funBox input.delAttention{float:right}
+.listWrapper .bt_gp_c{float:right;margin-left:10px}
+.foStatus{float:right;color:#999}.foStatus a.delAttention{background:none;text-decoration:underline}.foStatus .ico_fo,.foStatus .ico_bfo{float:left;margin:3px 4px 0 0;_margin-right:2px}
+.browserMod{float:right;padding-top:8px}.browserMod a{margin-right:10px;vertical-align:middle}.browserMod select{*margin-top:-1px;vertical-align:middle}
+.cellMod .userName{float:none;display:block;margin-bottom:8px}
+.cellMod .fun{display:block;float:none;margin:0}
+.cellMod .moreFun{margin-top:-2px}
+.cellMod li{float:left;width:33.3%;padding:20px 0 18px;background:#fff;border-bottom:1px dashed #D8D8D8}
+.cellMod .userPic{padding-left:20px}
+.cellMod .msgBox{margin-right:0}
+.newsTips2{padding:5px 0 3px;color:#999}
+.listWrapper .bt_gp_c { float:right; margin-left:5px;}
+.listWrapper .bt_gp_c .gb_btn  { float:left;}
+.listWrapper .bt_gp_c .gb_foed { float:left;}
+.listWrapper .bt_gp_c .gb_fo3 .arrow { top:1px; left:0; cursor:pointer;}
+.listWrapper .open .gb_fo3 .arrow { top:-3px;}
+.listWrapper .ui_drop_follows_mod { margin-top:20px; width:170px; *margin-left:-91px;}
+.listWrapper .ui_drop_gptools_mod {margin-top:20px; width:70px; *margin-left:-65px;_margin-left:-50px;}
+.listWrapper .mFunDrop { margin-top:20px;width:70px; *margin-left:-65px;}
+.listWrapper .mFunDrop p { padding-bottom:1px;}
+.listWrapper .mFunDrop a { display:block!important; color: #333;padding: 2px 5px 4px 5px;padding: 4px 5px 2px 5px\9;height: 16px;line-height: 16px;white-space: nowrap;overflow: hidden;}
+.listWrapper .bt_gp_c_more { margin-left:0;}
+.listWrapper .bt_gp_c_group { margin-left:9px; margin-right:-1px;}
+.listWrapper .bt_gp_c_group .gb_btn5 {
+	-webkit-border-radius: 2px 0 0 2px;
+	-moz-border-radius: 2px 0 0 2px;
+	border-radius: 2px 0 0 2px;
+}
+.listWrapper .bt_gp_c_more .gb_btn5 {
+	-webkit-border-radius: 0 2px 2px 0;
+	-moz-border-radius: 0 2px 2px 0;
+	border-radius: 0 2px 2px 0;
+}
+.listWrapper .bt_gp_c_group .w_drop { margin-top:20px; margin-left:0; *margin-left:-65px; _margin-top:0; _margin-left:0px;}
+</style>
+
+<script src="follow_files/mi_130318c.js" charset="utf-8" type="text/javascript"></script><script src="follow_files/mysidebar_n_new.html" defer="true" async="true" charset="utf-8" type="text/javascript"></script><link href="follow_files/mi.css" type="text/css" rel="stylesheet"><link href="follow_files/mi_002.css" type="text/css" rel="stylesheet"><script async="true" src="follow_files/mi_003.js" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/mi_002.js" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/mi_005.js" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/mi_006.js" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/crystal-min.js" type="text/javascript"></script><script async="true" src="follow_files/newMsgCount.html" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/mi_007.js" type="text/javascript" charset="utf-8"></script><script async="true" src="follow_files/ping.js" type="text/javascript"></script><script async="true" src="follow_files/mi_008.js" type="text/javascript" charset="utf-8"></script><link href="follow_files/eqq_002.css" rel="stylesheet" charset="utf-8" type="text/css" id="EQQ_Pre_SkinCss"><link href="follow_files/eqq.css" rel="stylesheet" charset="utf-8" type="text/css" id="EQQ_SkinCss"><script async="true" src="follow_files/mi.js" type="text/javascript" charset="utf-8"></script><script src="follow_files/cdn_dianjiliu.js"></script></head>
+<body class="w-1270 w-1220 w-1067" p_h="2">
+<div class="w_head_outer"><div class="headWrap">
+	<div class="headInside" id="header">
+		<h1>
+			<a href="http://t.qq.com/lianjiuzhou" title="t.qq.com" accesskey="z" boss="btnClickNewLogo">腾讯微博</a>
+		</h1>
+		<ul class="topNav" id="topNav" role="navigation">
+			<li class="topNavItem"><a class="active" href="http://t.qq.com/lianjiuzhou"><u>首页</u><i></i></a></li>
+			
+			<li class="topNavItem"><a href="http://zhaoren.t.qq.com/people?from=top&amp;pgv_ref=web.wide.nav.people"><u>找人</u><i></i></a></li>
+				</ul>
+				<ul class="topNav right qk_nav" id="newMsgBox">
+
+			<li class="topNavItem accountItem" id="topNav1">
+				<a href="http://t.qq.com/lianjiuzhou?preview" class="txt" onclick="if(document.body.className.indexOf('ipad') != -1){this.nextSibling.style.display='block';this.className+=' active';return false}" title="高志成(@lianjiuzhou)"><u>高志成<em>&nbsp;</em></u><i></i></a><ul class="topNavSub" style="display:none">
+
+				</ul>
+			</li>
+		</ul>
+				<div class="tSearchNew" role="search">
+			<form id="searchForm" method="get" action="http://search.t.qq.com/index.php">
+				<label for="searchKey">搜名字/帐号/广播</label><input id="searchKey" maxlength="50" name="k" autocomplete="off" class="inputTxtNew" accesskey="s" type="text">
+				<input name="pos" value="174" type="hidden">
+				<input name="s_source" value="" type="hidden">
+				<input class="inputBtn" value="搜索" type="submit">
+				<a href="#" class="btn_ldrop"><em></em></a>
+			</form>
+		</div>
+		<div id="nav_fix_wrap" class="nav_fix_wrap"></div>
+	</div>
+	<div class="head_tack_w">
+
+			</div>	<div class="headShadow"></div>
+</div></div>
+<div id="topWrap">
+
+
+	<style>.w_qk_bd  .userCap{display:none;}</style>
+<div id="mainWrapper" class="clear">
+		<div class="main">
+		<div class="tabStyle2 ui_tab_new ui_tab_rad"><ul><li class="select"><b>我收听的人</b></li>
+		   <li><a href="http://t.qq.com/lianjiuzhou/follower">我的听众</a></div>
+		<div id="listWrapper">
+			<script type="text/javascript">if(!window._MIRun){_MIRun=[];MIRun=function(o){_MIRun.push(o)};}MILang=''; _MIVersion={"lib\/jquery":"1.8.3","DatePicker":"110906","ColorPicker":"110107","Base":"130314","Tmpl":"130314a","NewMsgBox":"121227","MapPop":"120222","LbsMap":"130226","WebQQ":"120419a","WebQQFull":"121002a","Radio":"110905","FAQBox":"111104","NonTx":"110318","TalkBoxRich":"130318f","Mood":"130204","Capture":"121102","TransformST":"110823","FileUploader":"120222","TalkListRich":"130320a","TalkListFav":"120910","TalkListUpdate":"120221","TalkListShare":"130206","Scroll":"101111","QQDownload":"111115b","Music":"130305","QQMusicInstance":"111029","QQMusicPlayer":"110711","QQMusicWmpPlayer":"110711","QQMuicHtml5Player":"110711","Validate":"130228a","ValidateNew":"110920","Slide":"121214a","PicList":"130312","RelateSelect":"110524","City":"111017b","CityAll":"110802b","Occupation":"130305","ItemSelect":"130314a","Message":"130129a","c\/player\/mi.cSlide.player":"121204","QmEditor":"130318","t\/mi.TalkListTab":"130308","Task":"130318","GiftBox":"130205","Theme":"130108","Tag":"121002b","List":"121224","SettingEdu":"130115","SettingWork":"121002","Face":"121122","Sidebar":"121010b","Wide":"130312","Vote":"121214","MicroTopic":"130307","SubjectPublish":"130128a","t\/mi.RealWord":"121207a","t\/mi.Widget.admin":"130222","Olympics":"120821","Group":"111228","QunList":"110804","_CallOver":"130105","_ShuoShuoUploader":"121114","_NewMultiPic":"130301b","_MultiBeautify":"130301b","_Mood":"111031","_MoodDemo":"110805","_MusicRecord":"111101","_VideoRecord":"111104","_CameraPhoto":"111001","_Text2Pic":"110926","_SinglePhoto":"120621","_PingtuEditor":"120920","datePicker":"121106","colorPicker":"101228","base":"130315","mood":"130204","talkListShare":"120221","picList":"120912","itemSelect":"130314","message":"120704","wide":"130305","c\/mi.cSlide.tumblr":"120917a","k\/subscribeTopic":"130313","p\/medal":"121121","p\/guanjia":"130318a","p\/silenceCntPopup":"130227a","r\/qqFriendSelector":"121127","r\/qqFriendsBanner":"121219","r\/famousPersonDialog":"121029","r\/homeRecommendBanner":"121105a","r\/sFollowDialog":"121120a","r\/qqFriendPush":"130227a","r\/silenceFrdPopup":"130227c"};MILoad=function(b,c){var a=document.createElement('script');if(c){a.onload=a.onerror=a.onreadystatechange=function(){var s=this.readyState;if(!s||(s&&(s=='loaded'||s=='complete'))){c(b);}}}a.setAttribute('type','text/javascript');a.setAttribute('charset','utf-8');a.setAttribute('src',b);document.getElementsByTagName('head')[0].appendChild(a)};MIHost=['mat1.gtimg.com/www','mat1.t.qq.com/mb/mat1','www.qq.com/mb/mat1'];MIBos=function(n){new Image().src='http://btrace.qq.com/collect?sIp=&iQQ='+Number((document.cookie.match(/[^\w][l]?uin=[^;]+/g)||[''])[0].split('=o')[1])+'&sBiz=microblog&sOp='+n+'&iSta=0&iTy=1210&iFlow=0&iFrom=&iPubFrom=&sUrl='+location.pathname+'&iUrlType=11&iPos=&sText=&iBak1=&iBak2=&sBak1=&sBak2=&sRef=&sRef=&r='+Math.random()};MILoad('http://mat1.gtimg.com/www/mb/js/mi_130318c.js',function(b){if(!window.MI){MIBos('btnOnerrorJS');MILoad(b.replace(MIHost[0],MIHost[1]),function(b){if(window.MI){MIBos('btnOnerrorJSSuccess')}else{MIBos('btnOnerrorJS2');MILoad(b.replace(MIHost[1],MIHost[2]),function(){if(window.MI){MIBos('btnOnerrorJSSuccess2')}});}});}});</script><script type="text/javascript">
+MIRun(function(){MI.user={"account":"lianjiuzhou","name":"\u9ad8\u5fd7\u6210","chName":"lianjiuzhou","flag":{"govCert":0,"passCert":1},"pic":"http:\/\/t0.qlogo.cn\/mbloghead\/2fd571c0fb4e6f4f1784\/50","fun":{"wideStyle":1,"pageMode":1,"newAdmin":1,"wideLabHeaderFloat":0,"wideLibCloseTip":1,"wideGuide":1,"search":1,"favGroup":1,"report":1,"autoPic":1,"hasThirdAppShield":1,"followList":1,"goTop":1,"w2fTips":1,"isNewSidebar":1,"newRelay2":1,"note":1,"chat":1,"app":1,"msgBox":1,"noti":1,"syncQzone":1,"viewOriginal":0,"followTips":0,"selfVideo":1,"autoMoreContinue":1,"atShield":0,"notEmpty":0,"atAgg":0,"feedSpecial":1,"apiMove":1,"msgOpenPage":1,"reportRead":1,"polyNotice":1,"level":2,"topicSidePanel":1,"looseMar":0,"widgetAdmin":1,"newvote":1,"olympicguide":1,"newAppDrop":1,"newPicUpload":1,"rtPicPub":1,"wideUrlPreview":1,"hasbrace":1,"readTimes":1,"showBotAd":0,"widgetFloat":1,"hasLike":1,"youdaoShare":1,"operFace":1,"picCode":1,"fromIcon":1,"newMultiPicFun":1},"medal":[4,2],"atType":4,"uin":"e8168fa1f7ecfedd516b1bc0417803fc","follower":51,"following":33}; MI.rope={};UI.ready(function(){
+MI.app({Base:function(){
+	MI.navMenu();
+}});
+MI.pageClick(['*|id=pageSetLink','.wideSetLink']);
+MI.app({Wide:null});MI.api.type = 8;});});</script>
+ 
+		<div class="citySame clear">
+        <div class="subTab1">
+				<span class="viewList">排序：</span>
+            <div class="sDropWrap"><a href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=1&amp;t=0&amp;p=1" onclick="MI.Bos('btnMyfollowing_p');" class="">按收听时间<em class="btn_drop"></em></a><ul style="display:none;" class="sDropBox"><li class="select"><a href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=1&amp;t=0&amp;p=1" onclick="MI.Bos('btnMyfollowing_p1');"><em>√</em>按收听时间</a> </li><li class="nobor"><a href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=6&amp;t=0&amp;p=1" onclick="MI.Bos('btnMyfollowing_p6');"><em>√</em>按广播时间</a> </li><li class="nobor"><a href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=3&amp;t=0&amp;p=1" onclick="MI.Bos('btnMyfollowing_p3');"><em>√</em>按听众数</a> </li><li class="nobor"><a href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=4&amp;t=0&amp;p=1" onclick="MI.Bos('btnMyfollowing_p4');"><em>√</em>按微博等级</a></li></ul></div>
+				<span class="right">共收听<strong>33</strong>人</span>
+		  </div>
+		</div>
+        				<div class="listWrapper"><ul p_h="1" class="LC">
+
+
+
+            <style type="text/css">
+.LC li {overflow-y: visible;}
+</style>
+{% for user in users %}
+{{user}}
+
+{% endfor %}
+<div class="userPic"><a title="添加到特别收听" boss="{name:'myfollower',id:1191,iBak1:2,iPos:67,sBak1:'weibo-act'}" href="#" onclick="sFollow('weibo-act',this);return false" class="ico_sFo"></a>    
+<a rel="微博活动广播站(@weibo-act)" ctype="1" card="1" href="http://t.qq.com/weibo-act" title="微博活动广播站(@weibo-act)">
+    <img title="微博活动广播站(@weibo-act)" src="follow_files/50_010.jpeg"></a>
+</div>
+<div class="msgBox" uid="weibo-act">
+    <div class="clear">
+        <div class="userName"><strong>
+                        <a rel="微博活动广播站(@weibo-act)" ctype="2" card="1" boss="{name:'myfollower',id:1191,iBak1:5,iPos:67,sBak1:'weibo-act'}" href="http://t.qq.com/weibo-act" title="微博活动广播站(@weibo-act)">微博活动广播站</a>
+                <a rel="腾讯机构认证" ctype="2" card="1" href="http://zhaoren.t.qq.com/people.php?id=114" title="腾讯机构认证" target="_blank" class="tIcon ico_cvip"></a><a title="" ctype="2" card="1" href="http://p.t.qq.com/levelDetail.php?u=weibo-act" class="ico_level wbL6" user="weibo-act"><em>6</em></a>                                                         
+            </strong></div>
+            <div class="nickFun"><div class="funType">[<a href="#" onclick="MI.Note.add(this);return false" note="" nick="微博活动广播站" account="weibo-act" chname="weibo-act">添加备注</a>]</div></div>        <div class="funBox">
+
+         
+                            <div class="foStatus" state="0"><span class="following"><em class="ico_fo"></em>已收听,</span>
+                        <a href="javascript:void(0)" class="delAttention" onclick="follow('weibo-act',this,0)" id="unfollowBtn">取消</a>
+                        </div>
+                        <input class="addAttention" style="display:none" value="收听" onclick="follow('weibo-act',this,1);" type="button"></div>
+    </div>
+    	        <div class="cNote">
+	        	腾讯微博官方活动宣传平台	        </div>
+	        
+    <div class="userNums">
+            <span class="cNote" style="margin-right:0px">广东深圳 | </span>
+                <span class="cNote" style="margin-right:0px">听众<a boss="{name:'myfollower',id:1191,iBak1:52,iPos:67,sBak1:'weibo-act'}" href="http://t.qq.com/weibo-act/follower"><strong id="followedNum_weibo-act">19888449</strong></a>人 | </span>
+        <span class="cNote" style="margin-right:0px">收听<a href="http://t.qq.com/weibo-act/following"><strong>412</strong></a>人</span>
+       
+    </div><div class="cNote">我们共同收听了<a class="link" href="http://t.qq.com/jjlin" target="_blank" title="林俊杰(@林俊杰)">林俊杰</a></div><div class="cNote source">通过<a boss="{name:'btnClickScene',sBak1 : '22',
+						sBak2 : '0',id:1187}" href="http://rc.qzone.qq.com/myhome/weibo/">QQ空间</a>收听</div></div>
+			</li>
+					</ul></div>
+	<div style="" class="pageNav blueFoot"><strong>1</strong><a boss="{name:'myfollowing',id:1191,iBak1:51,iPos:66}" href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=1&amp;t=0&amp;p=2">2</a><a boss="{name:'myfollowing',id:1191,iBak1:51,iPos:66}" href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=1&amp;t=0&amp;p=3">3</a><a boss="{name:'myfollowing',id:1191,iBak1:51,iPos:66}" href="http://t.qq.com/lianjiuzhou/following?u=lianjiuzhou&amp;st=1&amp;t=0&amp;p=2" class="pageBtn">下一页 &gt;&gt;</a></div>
+
+<script type="text/javascript">
+/*type:1，el是收听按钮，type:0，el是取消收听按钮*/
+function follow(id,el,type){
+	MI.follow(id,el,function(fo){
+		var foStatesNode = type==0 ? el.parentNode : el;
+		var elShow = ((type==0) ? UI.next(foStatesNode) : UI.prev(foStatesNode));
+		var li=UI.parents(el,'msgBox')[0].parentNode,sFo=$$(li,'.userPic .ico_sFo')[0],note=$$(li,'.nickFun')[0],noteBtn=$$(li,'.nickFun a')[0],users=MI.Card.users;
+		if(sFo) {
+			if(type==1) {
+				UI.show(sFo);
+				UI.removeClass(sFo,'foLight');
+			}
+			else {
+				UI.hide(sFo);
+				if(UI.hasClass(sFo,'foLight')) MI.countNum($('sFollowNum'),1);
+			}
+		}
+		if(fo==1){
+			MI.feedBack({name:'myfollowing',id:1191,iPos:66,iBak1:3,sBak1:''});
+			if(users && users[id]){
+				users[id].follow=1;
+				users[id].num[1]++;
+			}
+			if(note){
+				UI.show(note);
+			}
+		}
+		else{
+			MI.feedBack({name:'myfollowing',id:1191,iPos:66,iBak1:8,sBak1:''});
+			if(users && users[id]){
+				users[id].follow=0;
+				users[id].group.im=0;
+				users[id].num[1]--;
+			}
+			if(note){
+				UI.hide(note);
+				UI.removeClass(note,'nickFunDis');
+				UI.A(noteBtn,'note','');
+				noteBtn.innerHTML = '添加备注';
+			}
+		}
+		if(window.checkFollowNum) checkFollowNum();
+		UI.show(elShow);
+		UI.hide(foStatesNode);
+	},'',0);
+}
+function sFollow(id,el){
+	var users=MI.Card.users;
+	MI.sFollow(id,el,function(fo){
+		if(fo==1){
+			MI.dialog.showTip({html:'添加成功'});
+			MI.countNum($('sFollowNum'),-1);
+			if(users && users[id]){
+				users[id].group.im=1;
+			}
+		}
+		else{
+			MI.countNum($('sFollowNum'),1);
+			if(users && users[id]){
+				users[id].group.im=1;
+			}
+		}
+		if(window.checkFollowNum) checkFollowNum();
+	});
+}
+
+MIRun(function(){
+	UI.ready(function(){
+		var accounts=[],
+			lis = $$('.listWrapper .userList .msgBox');
+		UI.each(lis,function(o,i){
+			var account=UI.A(o,'uid');
+			accounts.push(account);
+		});
+		if(accounts.length!=0){
+			MI.ajax({
+				url:'http://api.t.qq.com/relations/all.json',
+				data : {_id:accounts.join(','),scene:1},
+				type : 'get',
+				success : function(data){
+					data = MI.json(data);
+					if (data.result == 0) {
+						var obj = data.info;
+						UI.each(lis,function(o,i){
+							var id = UI.A(o,'uid'),
+								nums = $$(o,'.userNums')[0];
+							if(obj[id]){
+								UI.after(UI.html('<div class="cNote">'+obj[id]+'</div>')[0],nums);
+							}
+						});
+					}
+				}
+			});
+		}
+	});
+	UI.each($$('.ico_sFo'),function(o){
+		o.title=UI.hasClass(o,'foLight')?MI.sFollowTip[1]:MI.sFollowTip[0];
+	});
+	UI.each($$('.sDropWrap'),function(o){
+		o.onmouseover=function(){
+			var sDrop=this.firstChild;
+			UI.next(sDrop).style.display=UI.hasClass(sDrop,'hover')?'none':'block';
+			UI.addClass(sDrop,'hover');
+			return false;
+		};
+		o.onmouseout=function(){
+			var sDrop=this.firstChild;
+			UI.hide(UI.next(sDrop));
+			UI.removeClass(sDrop,'hover');
+			return false;
+		};
+	});
+	var userKeyForm=$('userKeyForm'),userKey=$('userKey'),userKeyTip=$('userKeyTip');
+	userKeyForm.onsubmit=function(){
+		var key=UI.trim(userKey.value);
+		if(key){
+			MI.Bos('btnQuickViewFriends');
+		}
+		else return false;
+	};
+	userKeyTip.onclick=function(){
+		userKey.focus();
+	};
+	UI.EA(userKey,'focus',function(){
+		UI.hide(userKeyTip);
+	});
+	userKey.onblur=function(){
+		if(!this.value)userKeyTip.style.display='inline';
+	};
+	UI.ready(function(){
+		if(window.checkFollowNum) checkFollowNum();
+		UI.each($$('.LC'),function(o){
+			new MI.TalkList(o);
+		});
+		MI.app({Base:function(){
+			new MI.AutoCmt({
+				target : $('userKey'),
+				type : 1,
+				align : 'right',
+				minWidth : 122,
+				call : function(){
+					userKeyForm.submit();
+				}
+			});
+		}});
+		MI.bottom('pageNav');
+
+		/*曝光上报，我的收听页上报用户帐号*/
+		var accounts=[];
+		UI.each($$('.listWrapper .userList .userPic'),function(o,i){
+			var account=UI.A(o,'uid');
+			accounts.push(account);
+		});
+		MI.feedBack({name:'myfollower',id:1191,iPos:66,iBak1:1,sBak1:accounts.join(',')});
+
+		MI.app({
+			Base:function(){
+				MI.card.followCall=function(fo){
+					var li=UI.parents(MI.card._target,'userList')[0];
+					if(li){
+						var fostatus = $$(li,'.msgBox .funBox .foStatus')[0],btn=UI.next(fostatus),sBtn=$$(li,'.userPic .ico_sFo')[0];
+						if(fo==1){
+							if(fostatus.style.display=='none'){
+								UI.show(fostatus);
+								UI.hide(btn);
+							}
+							else{
+								UI.hide(fostatus);
+								UI.show(btn);
+							}
+						}
+						else{
+							UI.hide(fostatus);
+							UI.show(btn);
+						}
+						UI.removeClass(sBtn,'foLight');
+						if(fo!=1){
+							UI.hide(sBtn);
+						}
+						else {
+							UI.show(sBtn);
+						}
+					}
+				};
+				MI.card.sFollowCall=function(fo){
+					var li=UI.parents(MI.card._target,'userList')[0];
+					if(li){
+						var btn=$$(li,'.userPic .ico_sFo')[0];
+						if(fo) UI.addClass(btn,'foLight');
+						else UI.removeClass(btn,'foLight');
+					}
+				};
+				MI.card.blackCall=function(fo){
+					var li=UI.parents(MI.card._target,'userList')[0];
+					if(li){
+						var fostatus = $$(li,'.msgBox .funBox .foStatus')[0],btn=UI.next(fostatus),sBtn=$$(li,'.userPic .ico_sFo')[0];
+						if(fo) {
+							UI.hide(btn);
+							UI.hide(fostatus);
+							UI.removeClass(sBtn,'foLight');
+							UI.hide(sBtn);
+						}
+						else{
+							UI.hide(fostatus);
+							UI.show(btn);
+						}
+					}
+				};
+			}
+		});
+	});
+			MI.app({List:function(){
+		/*List Admin*/
+				var moreBtn = $$(".funBox .bt_gp_c_more"), curBtn, open = "open";
+		UI.each(moreBtn, function(el){
+			el.onclick = function(e){
+				if (!UI.hasClass(el, open)) {
+					UI.addClass(el, open);
+					if (curBtn) {
+						UI.removeClass(curBtn, open)
+					}
+					curBtn = el;
+				}
+				else {
+					UI.removeClass(el, open);
+					curBtn = null;
+				}
+				UI.E(e).stop();
+				if(MI.List)	MI.List.listHide();
+			};
+		});
+		UI.EA(document.body, "click", function(){
+			if (curBtn && UI.hasClass(curBtn, open)) {
+				UI.removeClass(curBtn, open);
+				curBtn = null;
+			}
+		});
+		var dropList = $$(".funBox .ui_drop");
+		UI.each(dropList, function(el){
+			el.style.display = "";
+		});
+		
+		UI.each($$(".funBox .list"), function(el){
+			el.onclick = function(e){
+				MI.List.list(this, UI.A(this, 'account'));
+				UI.E(e).stop();
+						
+				var moreBtn = UI.prev(UI.parent(el));
+				if(UI.hasClass(moreBtn, open)){
+					UI.removeClass(moreBtn, open);
+					curBtn = null;
+				}
+				return false;
+			};
+		});
+				UI.EA(document.body,'click',function(){
+			MI.List.listHide();
+		});
+	}});
+			MI.boss=6;
+});
+var black = function(u, name, sex, target){ 
+	var obj = {
+		u: u,
+			name: name,
+			sex: sex,
+			target: target
+	};
+	obj.call = blackCall;
+	curBlackBtn = target;
+	MI.black(obj);
+
+},curBlackBtn;
+function blackCall(){
+	if (curBlackBtn) {
+		var li = UI.parents(curBlackBtn, "userList")[0];
+		UI.animate(li, "opacity", 0, function(){
+			UI.remove(li);
+		})
+	}
+curBlackBtn = null;
+}
+</script>		</div>
+	</div>
+	<div class="side">
+		<script type="text/javascript">
+MILoad=function(b){var a=document.createElement('script');a.setAttribute('type','text/javascript');a.setAttribute('charset','utf-8');a.setAttribute('async','true');a.setAttribute('defer','true');a.setAttribute('src',b);document.getElementsByTagName('head')[0].appendChild(a)};if(!window._MIRun){_MIRun=[];MIRun=function(o){_MIRun.push(o)};}
+(function(){
+window.mySidebar = function(data,last){
+	if (!T2){
+		T2 = +new Date() - T;
+	}
+	MIRun(function(){
+		MI.user.fun.widgetAdmin = 1;
+		MI.Load([],data,[],0);
+		if (last){
+			T4 = +new Date() - T;
+			setTimeout(function(){
+				T3 = +new Date() - T;
+				MI.Speed('t_asyn_wide_sidebar',0.1,T1,T2,T3,T4);
+			},0);
+		}
+	});
+}
+var T=+new Date(),T1,T2,T3,T4;
+T1 = +new Date() - T;
+MILoad('http://api.t.qq.com/asyn/mysidebar_n_new.php?cb=mySidebar&s=5&mu='+encodeURIComponent(document.location.href)+'&r='+T);
+})();
+</script>
+<div class="sc_profile_w">
+	<div class="m_profile m_profile_h clear" id="UIn">
+		<div class="c1 clear">
+			<div class="lc">
+				                                    <a title="去我的页面瞧瞧" href="http://t.qq.com/lianjiuzhou?preview" accesskey="q" class="avatar" boss="btnWideSideHeadImage"><img src="follow_files/100.jpeg"></a>                                    <a class="o_000_6 tx_edit_lk" href="http://p.t.qq.com/setting/face" boss="btnWideSideModifyHeadImage">修改头像</a>
+                                			</div>
+			<div class="rc">
+				<h3 class="tit">
+					<a href="http://t.qq.com/lianjiuzhou?preview" class="text_user" boss="btnWideSideMyNick">高志成</a><a title="" href="http://p.t.qq.com/levelDetail.php" class="ico_level wbL2"><em>2</em></a></h3>
+				<div class="mood_info" id="hostSideEmotion"><p class="null">今天心情怎么样？</p><p class="opt"><a href="" boss="btnSideHostEmotionPublishNow" onclick="MI.app({Mood:function(){MI.Mood.from=1;MI.Mood.floatBox.show(0);}});return false;">现在写</a></p></div>
+				 			</div>
+		</div>
+<div class="c2 clear  ">
+	<ul class="list clear  ">
+		<li class="list_item item_prose"><a href="http://t.qq.com/lianjiuzhou/mine" class="stat" boss="btnWideSideMyBroadcasts"><span class="text_count" id="talkNum">212</span><span class="text_atr">我的广播</span></a><b class="mo_bg foFun"></b></li>
+		<li class="line_bor"><b class="foFun"></b></li>
+		<li class="line_bor"><b class="foFun"></b></li>
+		<li class="list_item item_follow"><a href="http://t.qq.com/lianjiuzhou/following" class="stat" boss="btnWideSideMyFollows"><span class="text_count">33</span><span class="text_atr">收听</span></a><b class="mo_bg foFun"></b></li>
+		<li class="line_bor"><b class="foFun"></b></li>
+		<li class="list_item item_fans"><a href="http://t.qq.com/lianjiuzhou/follower" class="stat" boss="btnWideSideMyFollowers"><span class="text_count">51</span><span class="text_atr">听众</span></a><b class="mo_bg foFun"></b></li>
+	</ul>
+	<span class="c2_bg foFun bgr6"></span>
+</div>
+</div>
+
+<div class="sc_setting sc_setting_na">
+	<span class="SC_bor"><b class="SC"></b></span>
+</div>
+	<div p_h="3" id="recApp" style="display:none"></div>
+</div>
+					<div id="floatView" style="display:none"></div>
+
+
+
+
+<div id="widgetWrap"><div p_h="4" id="app_microTrend" style=""><div class="SC SC_type_mini"><div class="SC_hd"><h2 class="tit">   <a href="javascript:;" boss="btnMicroTrendModuleClick" onclick="MI.Dialog.showIframe({title : ['听众趋势'],url : ['http://p.t.qq.com/micro_trend.php?tab=1'],width :  [560],height:[240],boss:['btnMicroTrendTab1']});return false;" class="tit_tx">听众趋势</a></h2><div class="info c_tx5">听众增长趋势</div><a href="#" class="ui_tx_count bgr6" style="display:none"></a>   <a href="javascript:;" boss="btnMicroTrendModuleClick" onclick="MI.Dialog.showIframe({title : ['听众趋势'],url : ['http://p.t.qq.com/micro_trend.php?tab=1'],width :  [560],height:[240],boss:['btnMicroTrendTab1']});return false;" class="url_mask"></a><b class="hover_bg"></b></div><div class="SC_bor"><b class="SC"></b></div></div><script language="javascript">MI.app({Wide:function(){
+new MI.Widget({
+	id:"app_microTrend",
+        initFun:function(el){
+        }
+});
+}});</script></div><div id="app_ad" style="display:none"><div class="SC SC_type_larger "><div class="SC_bd"><div class="sc_cnt_ad"><div id="weibo_FB_SJ_STY_Pic1" class="l_qq_com" lview="http://ls.l.qq.com/lview?c=t&amp;loc={loc}" style="display:none"></div></div></div><div class="SC_bor"><b class="SC"></b></div></div><script>setTimeout(function(){ UI.getScript("http://adsrich.qq.com/web/crystal/s1.1Beta02Build023/crystal-min.js" , function (){
+if( window.crystal && crystal.callbackarea){
+	function showRightAd(){
+		var AdDom = $("weibo_SJ_WDZY_R2P_TJPP") || $("weibo_FB_SJ_KFY_Pic1");
+		if(!AdDom){
+			return ;
+		}
+		MI.RightAd = function (data){
+			if(data.errCode){
+				return false;
+			}
+			var AdDom = $("weibo_SJ_WDZY_R2P_TJPP") || $("weibo_FB_SJ_KFY_Pic1");
+			if(!AdDom){
+				return ;
+			}
+			var ads = data.data;
+			var rd = parseInt(ads.length * Math.random());
+			var Ad = ads[rd];
+			if("" == Ad.word){
+				Ad.word = "拍拍精品";
+			}
+			var img = new Image();
+			img.src = Ad.imageUrl;
+			img.onload = function(){
+				var html = "<a href=\""+Ad.clickUrl+"\" target=\"_blank\" style=\"font-weight:bold;margin-left:10px\" card=\"1\" ctype=\"3\" title=\"\">"+Ad.word+"</a><div class=\"mobileBox\" style=\"clear:both;text-align:center;color:#666;padding:4px;width:309px;\"><a href=\""+Ad.clickUrl+"\" target=\"_blank\" style=\"font-weight:bold;\" card=\"1\" ctype=\"3\" ><img style=\"vertical-align:top;border:0;width:309px;height:140px;\" src=\"" + Ad.imageUrl + "\" title=\""+Ad.word+"\"></a></div>"
+				UI.EA(AdDom,"click",function(e){
+					var E=UI.E(e);
+					var from=0;
+					if( "img" == E.target.tagName.toLowerCase()){
+						from = 0;
+					}
+					else if( "a" == E.target.tagName.toLowerCase()){
+						from = 1;
+					}
+					MI.Bos({
+						name : "WBRightSideAD_PaiPaiClick",
+						iBak1 : rd,
+						iBak2 : from,
+						sBak1 : Ad.imageUrl,
+						sBak2 : Ad.clickUrl,
+						id : 1595
+					});
+				});
+				if(AdDom){
+					AdDom.innerHTML = html;
+					UI.show(AdDom);
+					UI.show($("app_ad"));
+					MI.Bos({
+						name : "WBRightSideAD_PaiPaiShow",
+						iBak1 : rd,
+						sBak1 : Ad.imageUrl,
+						sBak2 : Ad.clickUrl,
+						id : 1595
+					});
+					AdDom = null;
+				}
+			}
+		}
+		window.etgAdvertsCallback = function( data ){
+			MI.app({
+				Base:function(){
+					MI.RightAd(data);
+				}
+			});
+		}
+		var url = "http://te.paipai.com/tws/etgsh/display?fu=http%3A%2F%2Fetg.qq.com%2Fbillboard%2Fjson%2Fimgs309_140_10.js&pps=etg.12543_25155_28_115&t="+MI.random();
+		UI.getScript(url);
+		AdDom = null;
+	}
+	function showRightFloatAd(){
+		var AdDom = $("weibo_SJ_WDZY_R4P_TJPP");
+		if(AdDom){
+			AdDom.id = "WBRightFloatAd";
+			var url = "http://te.paipai.com/tws/etgsh/display?fu=http%3A%2F%2Fetg.qq.com%2Fbillboard%2Fjson%2Fimgs310_130_10.js&pps=etg.12543_25155_28_115&t="+MI.random();
+			setTimeout(function(){ UI.getScript(url)},50);
+		}
+	}
+	crystal._callbackarea=crystal.callbackarea;
+        
+        var ids = ["weibo_SJ_WDZY_R2P_TJPP","weibo_FB_SJ_KFY_Pic1","weibo_FB_SJ_KFY_Pic1" ,
+                   "weibo_FB_SJ_SCY_Pic1","weibo_FB_SJ_STY_Pic1",  "weibo_FB_SJ_TDY_Pic1",
+                   "weibo_FB_SJ_TZY_Pic1", "weibo_SJ_WDZY_R2P_TJPP", "weibo_SJ_XXDC_R2P_TJPP"
+        ];
+        var indexOf =  window.AD2.indexOf;       
+	       
+        crystal.callbackarea=function (a){
+		for (var i in a) {                 
+                    if ((a[i].oid == 89) || (a[i].oid == 1)) {
+				if (indexOf(ids,a[i].loc)!=-1) {
+						showRightAd();
+						a.splice(i, 1);
+				} else if ("weibo_SJ_WDZY_R4P_TJPP" == a[i].loc) {
+						showRightFloatAd();
+						a.splice(i, 1);   
+				}
+                    }   
+                }
+
+            this._callbackarea(a);
+	};
+}
+}
+) },50);</script></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div><div style="display:none"></div></div>
+<div id="widgetFloat">
+
+ </div>
+<script type="text/javascript">
+function refreshSeeSee(id) {
+	var lis = $$('#'+id+' li');
+	if (lis.length) {
+		var i = 0;
+		for (i in lis) {
+			if (lis.hasOwnProperty(i)) {
+				if (lis[i].style.display == 'block') {
+					break;
+				}
+			}
+		}
+		i = parseInt(i);
+		lis[i].style.display = 'none';
+		lis[(i+1)%lis.length].style.display = 'block';
+	}
+	else {
+		MI.Load(id,MI.url.mySidebar,id);
+	}
+}
+MIRun(function(){
+var badge=$('badgeBoxData');
+if(badge) MI.lazy.badgeBox = badge.value;
+var appLink=$('appLinkData');
+if(appLink) MI.lazy.appLink = appLink.value;
+UI.ready(function(){
+	setTimeout(function(){
+MI.newCount('4,3,2,20,30,19,1,8,13,17');},50);
+                    
+function option(n){return MI.S('option_' + n + '_' + MI.user.account)}
+});
+if ($("hostSideEmotion")) {
+		UI.linkEvent.add("moodSendOk", function(content){
+			$("hostSideEmotion").innerHTML = "";
+			MILoad('http://api.t.qq.com/asyn/mysidebar_n_new.php?cb=mySidebar&s=5&t=hostSideEmotion' + '&r=' + Math.random())
+		});
+	}
+});
+</script>
+	</div>
+<script type="text/javascript">
+MIRun(function(){
+	//异步化
+	MI.pageLoad({
+		id : 'listWrapper',
+		url : 'http://api.t.qq.com/relations/following.php',
+		target : '.subTab1 .left a,.sDropBox li a,.sDropWrap a,.pageNav a'
+	});
+});
+</script>
+</div>
+</div><script type="text/javascript">
+function changeLang(event){
+	var e = window.event || event || {};
+	var dom = e.target || e.srcElement,
+		href = document.location.href,
+		lang = dom.getAttribute('href'),
+		index = href.indexOf('?'),
+		newHref = href;
+	if(lang!=null){
+		var indexL = lang.indexOf('lang='),
+			langTxt = lang.substring(indexL);
+		if(index == -1){
+			newHref = newHref + '?' + langTxt; 
+		}
+		else{
+			var hasLang = href.indexOf('lang');
+			if(hasLang == -1)
+				newHref += '&' + langTxt;
+			else{
+				newHref = newHref.substring(0,hasLang) + langTxt;
+			}
+		}
+		document.location.href = newHref;
+	}
+}
+</script>
+<div id="weibo_SJ_WDZY_F_banner" class="l_qq_com" style="margin:10px auto 0;" config="{'delay':3000,'forceShow':1}"></div><div id="Copyright" role="contentinfo"><div class="wrapper"><div><a href="http://www.qq.com/" target="_blank">腾讯网</a>|<a href="http://www.qq.com/map" target="_blank">网站导航</a>|<a href="http://t.qq.com/certification">认证服务</a>|<a href="http://open.t.qq.com/" target="_blank">开放平台</a>|<a href="http://service.qq.com/special_auto/weibo.html" target="_blank">腾讯客服</a>|<a href="http://k.t.qq.com/k/%25E6%2584%258F%25E8%25A7%2581%25E5%258F%258D%25E9%25A6%2588">意见反馈</a>|<div class="langSet" onmouseover="UI.addClass(this,'hover');" onmouseout="UI.removeClass(this,'hover');" onclick="if(MI.changeLang &amp;&amp; (MI.user.account != null &amp;&amp; MI.user.account != '')){MI.changeLang(event); return false;}else{changeLang(event);return false;}">
+<a href="http://t.qq.com/lianjiuzhou/following?">Language<span class="btn_arr"><span><em>◆</em></span></span></a><div class="subNav"><p><a data-flag="3" href="http://t.qq.com/lianjiuzhou/following?lang=zh_CN">简体中文</a></p><p class="second"><a data-flag="1" href="http://t.qq.com/lianjiuzhou/following?lang=zh_CHT">繁體中文</a></p><p class="last"><a data-flag="2" href="http://t.qq.com/lianjiuzhou/following?lang=en_US">English</a></p>
+        <p></p></div></div></div><div>Copyright © 1998 - 2013 Tencent. All Rights Reserved</div></div></div>
+<script>try{QosS.timePoint3()();}catch(e){}</script>
+<script>MIRun(function(){setTimeout(function(){UI.getScript('http://pingjs.qq.com/ping.js',function(){if(typeof(pgvMain) == 'function'){if(window.vsPgvCol){vsPgvCol=vsPgvCol+";t_wide"}else{window.vsPgvCol="t_wide"}if(MI&&MI.user.fun.wideStyle){}pgvMain()}})},1000)});</script><div id="cssCheck"></div>
+
+
+<iframe id="ajaxProxy1363835611052" name="ajaxProxy1363835611052" src="follow_files/proxy.html" style="display:none" onload="setTimeout(function(){MI['_ajaxXhr_api.t.qq.com'] = 1;MI.ajax('_ajax_api.t.qq.com');},50);"></iframe><div style="display:none"></div><div style="left: 979.5px;" class="sToolbar single"><div class="bg"></div><div class="qTalkBox"><a style="background: none repeat scroll 0% 0% transparent;" href="#" onclick="return false" class="btn_qTalk" title=""><b class="mask"></b></a></div><div class="mSimpleBox" style="display:none"><a href="#" class="ico_mState" style="display:none"></a><button class="btn_mPlay">播放<b class="mask"></b></button><button class="btn_mPause" style="display:none">暂停<b class="mask"></b></button><b class="mbg"></b></div><div class="goTopBox" style="display:none"><a href="#" class="btn_goTop" onclick="window.scrollTo(0,0);MI.Bos('btnTop');this.blur();return false" title="返回顶部">返回顶部<b class="mask"></b></a></div><div class="sToolbarBg"><em></em></div></div><div style="right: -15.5px;" id="EQQ_Container">                <div style="display: block;" id="EQQ_MainBar" class="EQQ_mainBar">                        <div id="EQQ_StartButton" class="EQQ_startButton" title="">                            <div id="EQQ_StartButtonIcon" class="EQQ_startButtonIconActive"><!--WebQQ logo--></div>                            <!--<div id="EQQ_InfoShow" class="EQQ_infoShow">在线聊天</div>-->                        </div>                        <!--                        <div id="EQQ_lock" class="EQQ_lock" >                                                    </div>                        <div id="EQQ_MsgBoxButton" class="EQQ_msgBoxButton" href="###" title="消息盒子">                            <img id="EQQ_AvatarInMsgBoxButton" class="EQQ_avatarInMsgBoxButton" src="http://imgcache.qq.com/ac/b.gif" />                            <div class="unreadMsgInMsgBoxButton">                                (<span id="EQQ_MsgCounterInMsgBox" title="未读消息">99</span>)                            </div>                        </div>                        -->                        <!--<div class="EQQ_mainBar_bg_outer"><div class="EQQ_mainBar_bg"></div></div>-->                </div>                <!--                <div id="EQQ_CustomBar" class="EQQ_customBar">                    <div class="EQQ_rightBorder">右侧</div>                    <div id="EQQ_CustomContainer" class="EQQ_customContainer"></div>                </div>                -->                <div id="EQQ_TaskBar" class="EQQ_taskBar">                    <div id="EQQ_Line_1" class="EQQ_line"><!--分割线--></div>                    <div id="EQQ_ExtendButton" class="EQQ_noExtendButton"><div class="EQQ_extendButton_bg"><!--左右收缩按钮--></div></div>                    <div id="EQQ_ChatBuddyList" class="EQQ_chatBuddyList">                    </div>                </div>        <div class="EQQ_global_main">            <div style="display:none;" class="EQQ_faceSelection" id="EQQ_FaceSelection">                <div class="EQQ_qqfaces" title="/微笑" id="EQQ_qqface_0"></div><div class="EQQ_qqfaces" title="/撇嘴" id="EQQ_qqface_1"></div><div class="EQQ_qqfaces" title="/色" id="EQQ_qqface_2"></div><div class="EQQ_qqfaces" title="/发呆" id="EQQ_qqface_3"></div><div class="EQQ_qqfaces" title="/得意" id="EQQ_qqface_4"></div><div class="EQQ_qqfaces" title="/流泪" id="EQQ_qqface_5"></div><div class="EQQ_qqfaces" title="/害羞" id="EQQ_qqface_6"></div><div class="EQQ_qqfaces" title="/闭嘴" id="EQQ_qqface_7"></div><div class="EQQ_qqfaces" title="/睡" id="EQQ_qqface_8"></div><div class="EQQ_qqfaces" title="/大哭" id="EQQ_qqface_9"></div><div class="EQQ_qqfaces" title="/尴尬" id="EQQ_qqface_10"></div><div class="EQQ_qqfaces" title="/发怒" id="EQQ_qqface_11"></div><div class="EQQ_qqfaces" title="/调皮" id="EQQ_qqface_12"></div><div class="EQQ_qqfaces" title="/呲牙" id="EQQ_qqface_13"></div><div class="EQQ_qqfaces" title="/惊讶" id="EQQ_qqface_14"></div><div class="EQQ_qqfaces" title="/难过" id="EQQ_qqface_15"></div><div class="EQQ_qqfaces" title="/酷" id="EQQ_qqface_16"></div><div class="EQQ_qqfaces" title="/冷汗" id="EQQ_qqface_17"></div><div class="EQQ_qqfaces" title="/抓狂" id="EQQ_qqface_18"></div><div class="EQQ_qqfaces" title="/吐" id="EQQ_qqface_19"></div><div class="EQQ_qqfaces" title="/偷笑" id="EQQ_qqface_20"></div><div class="EQQ_qqfaces" title="/可爱" id="EQQ_qqface_21"></div><div class="EQQ_qqfaces" title="/白眼" id="EQQ_qqface_22"></div><div class="EQQ_qqfaces" title="/傲慢" id="EQQ_qqface_23"></div><div class="EQQ_qqfaces" title="/饥饿" id="EQQ_qqface_24"></div><div class="EQQ_qqfaces" title="/困" id="EQQ_qqface_25"></div><div class="EQQ_qqfaces" title="/惊恐" id="EQQ_qqface_26"></div><div class="EQQ_qqfaces" title="/流汗" id="EQQ_qqface_27"></div><div class="EQQ_qqfaces" title="/憨笑" id="EQQ_qqface_28"></div><div class="EQQ_qqfaces" title="/大兵" id="EQQ_qqface_29"></div><div class="EQQ_qqfaces" title="/奋斗" id="EQQ_qqface_30"></div><div class="EQQ_qqfaces" title="/咒骂" id="EQQ_qqface_31"></div><div class="EQQ_qqfaces" title="/疑问" id="EQQ_qqface_32"></div><div class="EQQ_qqfaces" title="/嘘..." id="EQQ_qqface_33"></div><div class="EQQ_qqfaces" title="/晕" id="EQQ_qqface_34"></div><div class="EQQ_qqfaces" title="/折磨" id="EQQ_qqface_35"></div><div class="EQQ_qqfaces" title="/衰" id="EQQ_qqface_36"></div><div class="EQQ_qqfaces" title="/骷髅" id="EQQ_qqface_37"></div><div class="EQQ_qqfaces" title="/敲打" id="EQQ_qqface_38"></div><div class="EQQ_qqfaces" title="/再见" id="EQQ_qqface_39"></div><div class="EQQ_qqfaces" title="/擦汗" id="EQQ_qqface_40"></div><div class="EQQ_qqfaces" title="/抠鼻" id="EQQ_qqface_41"></div><div class="EQQ_qqfaces" title="/鼓掌" id="EQQ_qqface_42"></div><div class="EQQ_qqfaces" title="/糗大了" id="EQQ_qqface_43"></div><div class="EQQ_qqfaces" title="/坏笑" id="EQQ_qqface_44"></div><div class="EQQ_qqfaces" title="/左哼哼" id="EQQ_qqface_45"></div><div class="EQQ_qqfaces" title="/右哼哼" id="EQQ_qqface_46"></div><div class="EQQ_qqfaces" title="/哈欠" id="EQQ_qqface_47"></div><div class="EQQ_qqfaces" title="/鄙视" id="EQQ_qqface_48"></div><div class="EQQ_qqfaces" title="/委屈" id="EQQ_qqface_49"></div><div class="EQQ_qqfaces" title="/快哭了" id="EQQ_qqface_50"></div><div class="EQQ_qqfaces" title="/阴险" id="EQQ_qqface_51"></div><div class="EQQ_qqfaces" title="/亲亲" id="EQQ_qqface_52"></div><div class="EQQ_qqfaces" title="/吓" id="EQQ_qqface_53"></div><div class="EQQ_qqfaces" title="/可怜" id="EQQ_qqface_54"></div><div class="EQQ_qqfaces" title="/菜刀" id="EQQ_qqface_55"></div><div class="EQQ_qqfaces" title="/西瓜" id="EQQ_qqface_56"></div><div class="EQQ_qqfaces" title="/啤酒" id="EQQ_qqface_57"></div><div class="EQQ_qqfaces" title="/篮球" id="EQQ_qqface_58"></div><div class="EQQ_qqfaces" title="/乒乓" id="EQQ_qqface_59"></div><div class="EQQ_qqfaces" title="/咖啡" id="EQQ_qqface_60"></div><div class="EQQ_qqfaces" title="/饭" id="EQQ_qqface_61"></div><div class="EQQ_qqfaces" title="/猪头" id="EQQ_qqface_62"></div><div class="EQQ_qqfaces" title="/玫瑰" id="EQQ_qqface_63"></div><div class="EQQ_qqfaces" title="/凋谢" id="EQQ_qqface_64"></div><div class="EQQ_qqfaces" title="/示爱" id="EQQ_qqface_65"></div><div class="EQQ_qqfaces" title="/爱心" id="EQQ_qqface_66"></div><div class="EQQ_qqfaces" title="/心碎" id="EQQ_qqface_67"></div><div class="EQQ_qqfaces" title="/蛋糕" id="EQQ_qqface_68"></div><div class="EQQ_qqfaces" title="/闪电" id="EQQ_qqface_69"></div><div class="EQQ_qqfaces" title="/炸弹" id="EQQ_qqface_70"></div><div class="EQQ_qqfaces" title="/刀" id="EQQ_qqface_71"></div><div class="EQQ_qqfaces" title="/足球" id="EQQ_qqface_72"></div><div class="EQQ_qqfaces" title="/瓢虫" id="EQQ_qqface_73"></div><div class="EQQ_qqfaces" title="/便便" id="EQQ_qqface_74"></div><div class="EQQ_qqfaces" title="/月亮" id="EQQ_qqface_75"></div><div class="EQQ_qqfaces" title="/太阳" id="EQQ_qqface_76"></div><div class="EQQ_qqfaces" title="/礼物" id="EQQ_qqface_77"></div><div class="EQQ_qqfaces" title="/拥抱" id="EQQ_qqface_78"></div><div class="EQQ_qqfaces" title="/强" id="EQQ_qqface_79"></div><div class="EQQ_qqfaces" title="/弱" id="EQQ_qqface_80"></div><div class="EQQ_qqfaces" title="/握手" id="EQQ_qqface_81"></div><div class="EQQ_qqfaces" title="/胜利" id="EQQ_qqface_82"></div><div class="EQQ_qqfaces" title="/抱拳" id="EQQ_qqface_83"></div><div class="EQQ_qqfaces" title="/勾引" id="EQQ_qqface_84"></div><div class="EQQ_qqfaces" title="/拳头" id="EQQ_qqface_85"></div><div class="EQQ_qqfaces" title="/差劲" id="EQQ_qqface_86"></div><div class="EQQ_qqfaces" title="/爱你" id="EQQ_qqface_87"></div><div class="EQQ_qqfaces" title="/NO" id="EQQ_qqface_88"></div><div class="EQQ_qqfaces" title="/OK" id="EQQ_qqface_89"></div><div class="EQQ_qqfaces" title="/爱情" id="EQQ_qqface_90"></div><div class="EQQ_qqfaces" title="/飞吻" id="EQQ_qqface_91"></div><div class="EQQ_qqfaces" title="/跳跳" id="EQQ_qqface_92"></div><div class="EQQ_qqfaces" title="/发抖" id="EQQ_qqface_93"></div><div class="EQQ_qqfaces" title="/怄火" id="EQQ_qqface_94"></div><div class="EQQ_qqfaces" title="/转圈" id="EQQ_qqface_95"></div><div class="EQQ_qqfaces" title="/磕头" id="EQQ_qqface_96"></div><div class="EQQ_qqfaces" title="/回头" id="EQQ_qqface_97"></div><div class="EQQ_qqfaces" title="/跳绳" id="EQQ_qqface_98"></div><div class="EQQ_qqfaces" title="/挥手" id="EQQ_qqface_99"></div><div class="EQQ_qqfaces" title="/激动" id="EQQ_qqface_100"></div><div class="EQQ_qqfaces" title="/街舞" id="EQQ_qqface_101"></div><div class="EQQ_qqfaces" title="/献吻" id="EQQ_qqface_102"></div><div class="EQQ_qqfaces" title="/左太极" id="EQQ_qqface_103"></div><div class="EQQ_qqfaces" title="/右太极" id="EQQ_qqface_104"></div>            </div>            <div style="display: none;" id="EQQ_MainPanel" class="EQQ_mainPanel">                <div class="EQQ_title">                    <div style="display:none;" id="EQQ_CloseButton" class="EQQ_CloseButton" title="隐藏好友列表">最小化</div>                    <a href="#"><div id="EQQ_MinButton" class="EQQ_MinButton" title="最小化">最小化</div></a>                    <a class="EQQ_FeedbackButton2" href="http://support.qq.com/portal/discuss_pdt/420_1.html" target="_blank">反馈</a>                    <ul id="EQQ_SettingPanel" class="EQQ_SettingPanel" style="display:none;"><a href="#" onclick="return false;"><li flag="online" class="EQQ_SettingPanel_item" style="margin-top:6px;">                            <div class="EQQ_setIcon EQQ_setOnlineIcon">icon</div>                            <div class="EQQ_SettingPanel_Text">在线</div>                        </li></a><a href="#" onclick="return false;">                        <li title="断开服务器连接" flag="offline" class="EQQ_SettingPanel_item">                            <div class="EQQ_setIcon EQQ_setOfflineIcon">icon</div>                            <div class="EQQ_SettingPanel_Text">离线</div>                        </li></a><a href="#" onclick="return false;">                        <li title="不接受实时聊天消息" flag="lock" class="EQQ_SettingPanel_item">                            <div class="EQQ_setIcon EQQ_setLockIcon">icon</div>                            <div class="EQQ_SettingPanel_Text">禁用</div>                        </li></a>                    </ul>	<a href="#" onclick="return false;">	                    <div id="EQQ_SettingButton" class="EQQ_settingButton" title="设置">	                        <div class="EQQ_settingButtonIcon">下</div>	                        <div id="EQQ_settingButtonText" class="EQQ_settingButtonText">设置</div>	                    </div>	</a>                    <div class="EQQ_titleText">在线互听<span id="EQQ_onlineCount">(0)</span></div>                    <div class="EQQ_betaText" title="1.0.10.12"></div>                </div>                <div style="display:none;" id="EQQ_MyPanel" class="EQQ_myPanel">                    <div class="EQQ_myInfo">                        <div id="EQQ_MyState" class="EQQ_myState" title="我的状态">                            <div id="EQQ_MyStateShow" class="EQQ_myStateShow EQQ_offline">状态</div>                            <div class="EQQ_myStateDown">下</div>                        </div>                        <div id="EQQ_MyNick" class="EQQ_myNick" title="昵称">昵称</div>                        <ul id="EQQ_StateSelectPanel" class="EQQ_stateSelectPanel">                            <li id="EQQ_SetOnline" state="online"><div class="EQQ_stateSelect_icon EQQ_online"></div><div class="EQQ_stateSelect_text">我在线上</div></li>                            <li id="EQQ_SetCallme" state="callme"><div class="EQQ_stateSelect_icon EQQ_callme"></div><div class="EQQ_stateSelect_text">Q我吧</div></li>                            <li id="EQQ_SetAway" state="away"><div class="EQQ_stateSelect_icon EQQ_away"></div><div class="EQQ_stateSelect_text">离开</div></li>                            <li id="EQQ_SetBusy" state="busy"><div class="EQQ_stateSelect_icon EQQ_busy"></div><div class="EQQ_stateSelect_text">忙碌</div></li>                            <li id="EQQ_SetSilent" state="silent"><div class="EQQ_stateSelect_icon EQQ_silent"></div><div class="EQQ_stateSelect_text">请勿打扰</div></li>                            <li id="EQQ_SetHidden" state="hidden"><div class="EQQ_stateSelect_icon EQQ_hidden"></div><div class="EQQ_stateSelect_text">隐身</div></li>                            <li id="EQQ_SetOffline" state="offline"><div class="EQQ_stateSelect_icon EQQ_offline"></div><div class="EQQ_stateSelect_text">离线</div></li>                        </ul>                    </div>                    <div id="EQQ_MySignature" class="EQQ_mySignature" title="载入中...">载入中...</div>                </div>                <div id="EQQ_YellowTips" class="EQQ_YellowTips">                    <div id="EQQ_YellowTips_CloseButton" class="EQQ_YellowTips_CloseButton" title="关闭提示">X</div>                    <a class="EQQ_YellowTips_Link" href="http://survey.qq.com/cgi-bin/submitsurvey?id=2473&amp;qpage=1&amp;page=1&amp;rm=dnN4k1bBG" target="_blank">邀请参与WebQQ用户调查</a>                </div>                <div id="EQQ_SearchBar" class="EQQ_SearchBar">                    <input id="EQQ_SearchBox" class="EQQ_SearchBox" name="EQQ_SearchBox" value="输入微博帐号..." title="直接输入微博帐号..." type="text"><div class="txtShadow"><span></span><b>|</b><span></span></div>                    <div id="EQQ_SearchButton" class="EQQ_SearchButton" title="回车打开会话窗口">搜索按钮</div>                </div>                <div id="EQQ_SearchResultPanel" class="EQQ_SearchResultPanel">                    <div class="EQQ_SearchResultItem" title="">Kevity1(666666)</div>                    <div class="EQQ_SearchResultItemHover" title="">Kevity2(666666)</div>                    <div class="EQQ_SearchResultItem" title="">Kevity3(66666)</div>                </div>                <div style="display: none;" id="EQQ_Logining" class="EQQ_Logining">登录中...</div>                <div id="EQQ_ReLoginPanel" class="EQQ_ReLoginPanel">            登录失败，<span id="EQQ_ReLoginButton" class="EQQ_ReLoginButton">重试</span>                </div>                <!--                <div id="EQQ_VerifyPanel" class="EQQ_VerifyPanel">                    <div id="EQQ_VerifyText" class="EQQ_VerifyText">请输入验证码</div>                    <div id="EQQ_VerifyTip" class="EQQ_VerifyTip">输入验证码有误,请重试</div><input type="text" id="EQQ_VerifyInput" class="EQQ_VerifyInput" maxlength=4 />                    <img id="EQQ_VerifyImg" class="EQQ_VerifyImg" src="http://imgcache.qq.com/ac/b.gif" />                    <a id="EQQ_VerifyChange" class="EQQ_VerifyChange" href="#">换一张</a>                    <div id="EQQ_VerifySummit" class="EQQ_VerifySummit"></div>                </div>                -->                <div style="display: block;" id="EQQ_BuddyList" class="EQQ_buddyList">	<div id="EQQ_listClassHead_0" class="EQQ_listClassHeadCollapsed" classindex="0"><div class="EQQ_listClassHeadIcon">icon</div><div class="EQQ_ClassList_RightContainer" title="">	&nbsp;[<span id="EQQ_Class_0_OnlineCounter"></span>/<span id="EQQ_Class_0_Counter"></span>]</div>	</div>	<div id="EQQ_listClassBody_0" class="EQQ_listClassBody"><div id="EQQ_Class_0_callme" class="EQQ_callmeBuddy"></div><div style="display:block;" id="EQQ_Class_0_online" class="EQQ_onlineBuddy"></div><div id="EQQ_Class_0_busy" class="EQQ_busyBuddy"></div><div id="EQQ_Class_0_away" class="EQQ_awayBuddy"></div><div id="EQQ_Class_0_silent" class="EQQ_silentBuddy"></div><div id="EQQ_Class_0_offline" class="EQQ_offlineBuddy"></div>	</div>                </div>            </div>            <!--            <div id="EQQ_MsgBox" class="EQQ_msgBox">                <div class="EQQ_titleInMsgBox">                    <div class="EQQ_titleTextInMsgBox">消息盒子</div>                    <div id="EQQ_ViewMainPanelButtonInMsgBox" class="EQQ_viewMainPanelButtonInMsgBox" title="点击查看好友列表">好友列表</div>                </div>                <div id="EQQ_MessageList" class="EQQ_messageList">                </div>                <div id="EQQ_IgnoreAllMsgButtonInMsgBox" class="EQQ_ignoreAllMsgButtonInMsgBox" title="点击忽略全部消息">忽略全部</div>            </div>            <div id="EQQ_LoginBox" class="EQQ_LoginBox">                <div class="EQQ_LoginBox_Title">                    <div id="EQQ_LoginBox_CloseButton" class="EQQ_LoginBox_CloseButton" title="关闭">X</div>                    <div class="EQQ_LoginBox_TitleText">WebQQ登录保护</div>                </div>            </div>            -->    </div></div><script src="follow_files/mi_004.js" type="text/javascript"></script><div><iframe style="display:none" id="EQQ_ProxySendIframe1363835613424" class="hiddenIframe" name="EQQ_ProxySendIframe1363835613424" src="follow_files/proxy_002.html" height="1" width="1"></iframe></div><iframe id="ajaxProxy1363835641385" name="ajaxProxy1363835641385" src="follow_files/proxy_003.html" style="display:none" onload="setTimeout(function(){MI['_ajaxXhr_message.t.qq.com'] = 1;MI.ajax('_ajax_message.t.qq.com');},50);"></iframe></body></html>
